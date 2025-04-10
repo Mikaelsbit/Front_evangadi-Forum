@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://mikaelsbit.github.io/Front_evangadi-Forum/",
   "version": "0.0.0",
   "private": true,
   "license": "ISC",
@@ -11,6 +12,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
